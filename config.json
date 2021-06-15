@@ -1,0 +1,98 @@
+{
+    "configVersion": 2,
+    "appIdentifier": "com.mxmobilepoc.mobile",
+    "appName": "Mx Mobile PoC",
+    "bundleName": {
+        "main": "MxMobilePoC",
+        "dev": "MxMobilePoCDev"
+    },
+    "deviceTarget": {
+        "phone": true,
+        "tablet": false
+    },
+    "orientation": {
+        "portrait": true,
+        "landscape": true
+    },
+    "permissions": [
+        {
+            "title": "Internet",
+            "name": "android.permission.INTERNET",
+            "platform": "android",
+            "required": true
+        },
+        {
+            "title": "Read External Storage",
+            "name": "android.permission.READ_EXTERNAL_STORAGE",
+            "platform": "android",
+            "required": true
+        },
+        {
+            "title": "System Alert Window",
+            "name": "android.permission.SYSTEM_ALERT_WINDOW",
+            "platform": "android",
+            "required": true
+        },
+        {
+            "title": "Write External Storage",
+            "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+            "platform": "android",
+            "required": true
+        },
+        {
+            "title": "Location - Always Usage",
+            "name": "NSLocationAlwaysUsageDescription",
+            "purpose": "To use that feature, the app needs access to your location.",
+            "platform": "ios",
+            "required": true
+        },
+        {
+            "title": "Location - When In Use Usage",
+            "name": "NSLocationWhenInUseUsageDescription",
+            "purpose": "To use that feature, the app needs access to your location.",
+            "platform": "ios",
+            "required": true
+        },
+        {
+            "title": "Location - Always And When in Use Usage",
+            "name": "NSLocationAlwaysAndWhenInUseUsageDescription",
+            "purpose": "To use that feature, the app needs access to your location.",
+            "platform": "ios",
+            "required": true
+        }
+    ],
+    "capabilities": {
+        "deepLink": {
+            "value": "mobilepoc",
+            "enabled": true
+        },
+        "maps": {
+            "value": "",
+            "enabled": false
+        },
+        "mapsIos": {
+            "enabled": false
+        },
+        "pushNotifications": {
+            "enabled": false
+        },
+        "crashlytics": {
+            "enabled": false
+        },
+        "firebaseAndroid": {
+            "enabled": false
+        },
+        "firebaseIos": {
+            "enabled": false
+        },
+        "localNotifications": {
+            "enabled": false
+        },
+        "appCenterOTA": {
+            "enabled": false
+        }
+    },
+    "appVersion": "1.0.0",
+    "buildNumber": 11,
+    "runtimeUrl": "https://mobilepc-tst.pre-app.asml.com"
+}
