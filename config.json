@@ -63,7 +63,7 @@
     ],
     "capabilities": {
         "deepLink": {
-            "value": "mobilepoc",
+            "value": "app",
             "enabled": true
         },
         "maps": {
@@ -92,7 +92,7 @@
             "enabled": false
         }
     },
-    "appVersion": "1.0.0",
-    "buildNumber": 11,
+    "appVersion": "3.0.0",
+    "buildNumber": 18,
     "runtimeUrl": "https://mobilepc-tst.pre-app.asml.com"
 }
